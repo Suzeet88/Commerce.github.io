@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next store</title>
+    <link rel="stylesheet" href="store.css">
+    <link rel="icon" href="img/monogram-gf2a01ec80_1280.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+  <section class="sub-header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/monogram-gf2a01ec80_1280.png" width="60px" height="60px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" alt="" width="30px" class="menu-icons" onclick="menutoggle()">
+        </div>
+        <!-- another -->
+        <div class="row">   
+            <div class="col-1">
+              <h1 class="title">About us</h1>
+              <p>Next store is established in 2015 with ambition to provide a quality price in low rate .We collab with one of the best clothing brands and shoes barnds  of the world and help you to create great outfit.We go across the world to provide you quality products in reasonable price.</p>
+            </div>
+            <div class="col-1">
+                <img src="img/ski-gfacd932e8_1920.jpg" alt="" width="450px">
+            </div>
+        </div>
+    </div>
+  </section>
+
+     <!-- paetners -->
+  <section class="products">
+    <h2 class="title">Our partners</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="img/nike.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="img/addidas.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="img/new balance.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="img/puma.png" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section class="footer">
+    <h1>Nextstore</h1>
+    <hr>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <h2 class="yax">&#10023Download now</h2>
+                <div class="app">
+                    <div>
+                        <img src="img/play-store.png" alt="">
+                    </div>
+                    <div> 
+                        <img src="img/app-store.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-3">
+                <h2 class="yax">&#10023Global partners</h2>
+                 <ul>
+                    <li>&#8688Nike</li>
+                    <li>&#8688Addidas</li>
+                    <li>&#8688New balance</li>
+                    <li>&#8688Puma</li>
+                 </ul>
+            </div>
+            <div class="col-3">
+                <h2 class="yax">&#10023Local partners</h2>
+                <ul>
+                   <li>&#8688Goldstar</li>
+                   <li>&#8688Caliber</li>
+                   <li>&#8688Daraz</li>
+                   <li>&#8688Shekhar</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h2 class="yax">&#10023Follow us</h2>
+                <div class="media">
+                    <div class="fax">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="fax">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="fax">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="fax">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="fax">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    </div>
+            
+            </div>
+            <p>&#169opyright all reversed.</p>
+        </div>
+    </div>
+  </section>
+    <!-- javascript -->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+    
+        menuitems.style.maxHeight = "0%";
+    
+       function menutoggle(){
+        if(menuitems.style.maxHeight == "0%")
+        {
+            menuitems.style.maxHeight = "100%"
+        }
+        else{
+            menuitems.style.maxHeight = "0%";
+        }
+       }
+      </script>
+</html>
